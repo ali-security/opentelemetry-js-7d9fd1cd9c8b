@@ -15,7 +15,7 @@ jobs:
   comment-on-pr:
     name: Add survey to PR if author is not a member
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true
+    if: false
     steps:
       - uses: actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf # v2.2.1
         id: otelbot-token

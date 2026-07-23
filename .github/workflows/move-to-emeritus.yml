@@ -8,6 +8,7 @@ permissions:
 
 jobs:
   create-or-update-emeritus-pr:
+    if: false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf # v2.2.1
